@@ -88,7 +88,7 @@ class ProcessTimeTable(APIView):
 
 
             print(course_details)
-            ANTHROPIC_API_KEY = ""
+            ANTHROPIC_API_KEY = "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"
 
             # Example client call (ensure you have correct client setup)
             client = Anthropic(
